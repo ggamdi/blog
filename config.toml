@@ -1,0 +1,32 @@
+baseURL = "/"
+relativeURLs = true
+uglyURLs = true
+languageCode = "en-us"
+title = "ggamdi tech note"
+theme = "learn"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+themeVariant = "blue"
+author = "choijunwhan"
+disableBreadcrumb = false
+disableNextPrev = true
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/ggamdi"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30

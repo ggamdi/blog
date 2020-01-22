@@ -1,0 +1,1 @@
+GGAMDI Tech Note
